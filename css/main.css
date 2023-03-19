@@ -174,7 +174,7 @@ nav ul li.active a{
     nav ul li{
         opacity: 0;
         transition: var(--main-transition) ,opacity 0.2s 0.2s linear;
-        display: none;
+        transform: translateX(-100%);
     }
     nav:hover{
         width: 100px;
@@ -188,7 +188,7 @@ nav ul li.active a{
         opacity: 1;
         width: 100%;
         text-align: center;
-        display: block;
+        transform: translateX(0%);
     }
 }
 section{
@@ -442,8 +442,80 @@ section .content .content-pair .content-img img{
         height: 100% !important;
         background-image: url(../imgs/dates.jpg);
         background-size: cover;
+        background-position: center;
         position: relative;
         border-radius: 10px;
+    }
+    section:nth-of-type(1) .content .content-pair:nth-of-type(1) .content-text{
+        background-image: url(../imgs/dates.jpg);
+    }
+    section:nth-of-type(1) .content .content-pair:nth-of-type(2) .content-text{
+        background-image: url(../imgs/maghreb.jpg);
+    }
+    section:nth-of-type(1) .content .content-pair:nth-of-type(3) .content-text{
+        background-image: url(../imgs/food.jpg);
+    }
+    
+    section:nth-of-type(2) .content .content-pair:nth-of-type(1) .content-text{
+        background-image: url(../imgs/perfume.jpg);
+    }
+    section:nth-of-type(2) .content .content-pair:nth-of-type(2) .content-text{
+        background-image: url(../imgs/quran.jpg);
+    }
+    section:nth-of-type(2) .content .content-pair:nth-of-type(3) .content-text{
+        background-image: url(../imgs/alafasy.jpg);
+    }
+    section:nth-of-type(2) .content .content-pair:nth-of-type(4) .content-text{
+        background-image: url(../imgs/dua.jpg);
+    }
+    section:nth-of-type(2) .content .content-pair:nth-of-type(5) .content-text{
+        background-image: url(../imgs/taraweeh-prayer.jpeg);
+    }
+
+    
+    section:nth-of-type(3) .content .content-pair:nth-of-type(1) .content-text{
+        background-image: url(../imgs/clock.jpg);
+    }
+    section:nth-of-type(3) .content .content-pair:nth-of-type(2) .content-text{
+        background-image: url(../imgs/study.jpg);
+    }
+    section:nth-of-type(3) .content .content-pair:nth-of-type(3) .content-text{
+        background-image: url(../imgs/quran-recite.jpg);
+    }
+    section:nth-of-type(3) .content .content-pair:nth-of-type(4) .content-text{
+        background-image: url(../imgs/sleep.jpg);
+    }
+    section:nth-of-type(3) .content .content-pair:nth-of-type(5) .content-text{
+        background-image: url(../imgs/eat.jpg);
+    }
+    section:nth-of-type(3) .content .content-pair:nth-of-type(6) .content-text{
+        background-image: url(../imgs/praying-at-home.jpg);
+    }
+    
+    section:nth-of-type(4) .content .content-pair:nth-of-type(1) .content-text{
+        background-image: url(../imgs/tahajud.jpg);
+    }
+    section:nth-of-type(4) .content .content-pair:nth-of-type(2) .content-text{
+        background-image: url(../imgs/night.jpg);
+    }
+    section:nth-of-type(4) .content .content-pair:nth-of-type(3) .content-text{
+        background-image: url(../imgs/calender.jpg);
+    }
+    section:nth-of-type(4) .content .content-pair:nth-of-type(4) .content-text{
+        background-image: url(../imgs/tahajud.jpg);
+    }
+    
+    section:nth-of-type(5) .content .content-pair:nth-of-type(1) .content-text{
+        background-image: url(../imgs/dua-2.jpg);
+    }
+    section:nth-of-type(5) .content .content-pair:nth-of-type(2) .content-text{
+        background-image: url(../imgs/dates-and-water.jpg);
+    }
+    section:nth-of-type(5) .content .content-pair:nth-of-type(3) .content-text{
+        background-image: url(../imgs/dates-and-water.jpg);
+    }
+    section:nth-of-type(5) .content .content-pair:nth-of-type(4) .content-text{
+        background-image: url(../imgs/fajr.jpg);
     }
     section .content .content-pair .content-text::before{
         position: absolute;
